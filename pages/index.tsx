@@ -13,31 +13,31 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Bem vindo ao <a href="#">Eco-Data!</a>
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
+          Seu repositório para compartilhamento de pesquisas{' '}
           <code className={styles.code}>pages/index.tsx</code>
         </p>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+            <h2>Acessar como pesquisador &rarr;</h2>
+            <p>Faça login na plataforma para inserir seus dados de pesquisa</p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <h2>Dados públicos &rarr;</h2>
+            <p>tenha acesso aos dados de pesquisas disponíveis ao público em geral</p>
           </a>
 
           <a
             href="https://github.com/vercel/next.js/tree/canary/examples"
             className={styles.card}
           >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <h2>Quem somos ? &rarr;</h2>
+            <p>Saiba mais sobre o projeto eco-data</p>
           </a>
 
           <a
@@ -46,9 +46,9 @@ export default function Home() {
             rel="noopener noreferrer"
             className={styles.card}
           >
-            <h2>Deploy &rarr;</h2>
+            <h2>Entre em contato &rarr;</h2>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Entre em contato conosco através de nossos contatos
             </p>
           </a>
         </div>
