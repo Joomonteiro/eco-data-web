@@ -1,7 +1,6 @@
-import Head from "next/head";
-import Image from "next/image";
-import Link from "next/link";
-import styles from "../styles/Home.module.css";
+import Head from 'next/head'
+import Image from 'next/image'
+import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
@@ -14,34 +13,31 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Bem vindo ao <a href="#">Eco-Data!</a>
+          Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
         <p className={styles.description}>
-          Seu repositório para compartilhamento de pesquisas{" "}
+          Get started by editing{' '}
           <code className={styles.code}>pages/index.tsx</code>
         </p>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Acessar como pesquisador &rarr;</h2>
-            <p>Faça login na plataforma para inserir seus dados de pesquisa</p>
+            <h2>Documentation &rarr;</h2>
+            <p>Find in-depth information about Next.js features and API.</p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Dados públicos &rarr;</h2>
-            <p>
-              tenha acesso aos dados de pesquisas disponíveis ao público em
-              geral
-            </p>
+            <h2>Learn &rarr;</h2>
+            <p>Learn about Next.js in an interactive course with quizzes!</p>
           </a>
 
           <a
             href="https://github.com/vercel/next.js/tree/canary/examples"
             className={styles.card}
           >
-            <h2>Quem somos ? &rarr;</h2>
-            <p>Saiba mais sobre o projeto eco-data</p>
+            <h2>Examples &rarr;</h2>
+            <p>Discover and deploy boilerplate example Next.js projects.</p>
           </a>
 
           <a
@@ -50,8 +46,10 @@ export default function Home() {
             rel="noopener noreferrer"
             className={styles.card}
           >
-            <h2>Entre em contato &rarr;</h2>
-            <p>Entre em contato conosco através de nossos contatos</p>
+            <h2>Deploy &rarr;</h2>
+            <p>
+              Instantly deploy your Next.js site to a public URL with Vercel.
+            </p>
           </a>
         </div>
       </main>
@@ -62,25 +60,12 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{" "}
+          Powered by{' '}
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
       </footer>
-      <ul>
-        <li>
-          <Link href="/post/abc">Go to pages/post/[pid].js</Link>
-        </li>
-        <li>
-          <Link href="/post/abc?foo=bar">Also goes to pages/post/[pid].js</Link>
-        </li>
-        <li>
-          <Link href="/post/abc/a-comment">
-            Go to pages/post/[pid]/[comment].js
-          </Link>
-        </li>
-      </ul>
     </div>
-  );
+  )
 }
