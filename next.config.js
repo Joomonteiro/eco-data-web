@@ -2,6 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  ignoreDuringBuilds: true,
   // webpackDevMiddleware: config => {
   //   config.watchOptions = {
   //     poll: 1000,
