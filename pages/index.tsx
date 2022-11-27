@@ -10,6 +10,7 @@ import Brightness4Icon from '@mui/icons-material/Brightness4';
 import Brightness7Icon from '@mui/icons-material/Brightness7';
 import { useTheme } from "@mui/material/styles";
 import useColorMode from "../hooks/useColorMode";
+import Blog from "../components/Blog/Blog";
 
 export default function Home() {
   const theme = useTheme();
@@ -17,7 +18,7 @@ export default function Home() {
   return (
     <div>
       {/* <div className={styles.container}> */}
-      <Box
+      {/* <Box
         sx={{
           display: "flex",
           width: "100%",
@@ -41,12 +42,8 @@ export default function Home() {
             <Brightness4Icon />
           )}
         </IconButton>
-      </Box>
-      <Stack spacing={2} direction="row">
-        <Button variant="text">Text</Button>
-        <Button variant="contained">Contained</Button>
-        <Button variant="outlined">Outlined</Button>
-      </Stack>
+      </Box> */}
+        <Blog />
     </div>
   );
 }
